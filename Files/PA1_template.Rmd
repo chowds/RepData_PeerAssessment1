@@ -161,7 +161,7 @@ steps_median_fill <- median(fill_steps_per_day$steps, na.rm=TRUE)
 
 ##Yes, these values do differ slightly.
 ### Before filling the data
-#   1.Mean : 10766.189
+# 	1.Mean : 10766.189
 # 	2.Median: 10765
 ###After filling the data
 # 	1.Mean : 10766.189
@@ -191,4 +191,5 @@ xyplot(groupedData$x ~ groupedData$Interval | groupedData$DayType, layout = c(1,
 ```
 
 ##From the above graph we can see that activity on the weekday has the greatest peak from all steps intervals apparently weekend activities has more peaks over a hundred than weekday. This might be due to the fact that activities on weekdays mostly follow a work related routine, where we find some more intensity activity in little a free time that the employ can made some sport. On the other hand, at weekend a better distribution of effort along the time is showing in a good way.
+
 
